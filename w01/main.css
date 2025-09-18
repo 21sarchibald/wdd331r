@@ -12,10 +12,11 @@ h1 a:active {
     color: #666;
 }
 
-body {
+main {
     font-family: Helvetica, Arial, Sans-Serif;
     color: #333;
     display: grid;
+    grid-template-columns: 1;
 }
 
 nav {
@@ -23,6 +24,7 @@ nav {
     border-top: solid #d0d0d0;
     text-transform: uppercase;
     display: flex;
+    text-align: center;
 }
 
 nav ul {
@@ -49,4 +51,24 @@ a:active {
 
 .post-content {
     border-bottom: solid #d0d0d0;
+}
+
+@media screen and (min-width: 800px) {
+    /* main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    } */
+
+    article {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .post-date {
+        grid-column: 1;
+    }
+
+    article .post-content {
+        grid-column: 2;
+    }
 }
