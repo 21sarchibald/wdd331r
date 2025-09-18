@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+h1, h2 {
+    font-family: "Lora", Impact, Serif;
+}
+
+h1 a:hover {
+    color: #666;
+}
+
+h1 a:active {
+    color: #666;
+}
+
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
+    color: #333;
+    display: grid;
+}
+
+nav {
+    border-bottom: solid #d0d0d0;
+    border-top: solid #d0d0d0;
+    text-transform: uppercase;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+}
+
+a {
+    color: #666;
+    font-family: "Lora", Impact, Serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00ddff;
+}
+
+a:active {
+    color: #DEB887;
+}
+
+.post-date {
+
+}
+
+.post-content {
+    border-bottom: solid #d0d0d0;
+}
