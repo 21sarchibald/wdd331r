@@ -13,12 +13,17 @@ h1, h2 {
     font-family: "Lora", Impact, Serif;
 }
 
+h1 a {
+    font-size: 3.3rem;
+    color: #333;
+}
+
 h1 a:hover {
-    color: #666;
+    color: #333;
 }
 
 h1 a:active {
-    color: #666;
+    color: #333;
 }
 
 nav {
@@ -28,10 +33,16 @@ nav {
     display: flex;
     text-align: center;
     justify-content: center;
-    justify-items: center;
+    font-size: 1.1rem;
+    
 }
 
 nav ul {
+    line-height: 2.1;
+    padding: 0px;
+}
+
+nav li {
     list-style: none;
 }
 
@@ -41,6 +52,8 @@ main {
     display: grid;
     grid-template-columns: 1;
     align-content: center;
+    padding: 0px;
+    margin: 10px;
 }
 
 a {
@@ -58,17 +71,21 @@ a:active {
 }
 
 article {
-    margin: 10%;
-    justify-items: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .post-date {
     text-align: right;
+    border-bottom: solid #d0d0d0;
+    line-height: 2;
 }
 
 .post-content {
     border-bottom: solid #d0d0d0;
     justify-items: center;
+    width: 100%;
+
 }
 
 figure {
@@ -78,16 +95,40 @@ figure {
 
 @media screen and (min-width: 600px) {
 
+    main {
+        grid-gap: 0px;
+    }
+
     article {
         display: grid;
         grid-template-columns: 1fr 2fr;
+        grid-gap: 20px;
     }
+
     .post-date {
         grid-column: 1;
     }
 
     article .post-content {
         grid-column: 2;
+        padding-left: 10px;
+        width: 100%;
+        border-left: solid #d0d0d0;
+    }
+
+    nav {
+        justify-content: flex-end;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        flex-wrap: nowrap;
+        margin: 0px;
+    }
+
+    nav li {
+        padding: 9px;
     }
 }
 
