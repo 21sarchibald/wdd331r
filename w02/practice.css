@@ -1,0 +1,11 @@
+.help {
+    /* How do I add parentheses??? */
+}
+
+input:invalid {
+    background-color: red;
+}
+
+input:invalid:required{
+    background-color: red;
+}
