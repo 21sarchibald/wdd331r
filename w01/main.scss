@@ -15,7 +15,6 @@ body {
 }
 
 header {
-    // text-align: center;
     @include center;
 }
 
@@ -39,9 +38,8 @@ nav {
     border-top: solid $border-color;
     text-transform: uppercase;
     display: flex;
+    justify-content: center;
     @include center;
-    // text-align: center;
-    // justify-content: center;
     font-size: 1.1rem;
     
 }
@@ -92,13 +90,10 @@ article {
     border-bottom: solid $border-color;
     justify-items: center;
     width: 100%;
-
 }
 
 figure {
     @include center;
-    // text-align: center;
-    // justify-items: center;
 }
 
 @media screen and (min-width: 600px) {

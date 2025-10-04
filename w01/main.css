@@ -29,6 +29,7 @@ nav {
   border-top: solid #d0d0d0;
   text-transform: uppercase;
   display: flex;
+  justify-content: center;
   text-align: center;
   justify-items: center;
   font-size: 1.1rem;
