@@ -1,0 +1,20 @@
+
+styles.css
+   4:1   ✖  Expected empty line before at-rule                          at-rule-empty-line-before
+   4:8   ✖  Expected "context" media feature range notation             media-feature-range-notation
+  12:1   ✖  Expected empty line before at-rule                          at-rule-empty-line-before
+  12:8   ✖  Expected "context" media feature range notation             media-feature-range-notation
+  20:1   ✖  Expected empty line before at-rule                          at-rule-empty-line-before
+  20:8   ✖  Expected "context" media feature range notation             media-feature-range-notation
+  27:3   ✖  Expected empty line before rule                             rule-empty-line-before
+  30:3   ✖  Expected empty line before rule                             rule-empty-line-before
+  31:23  ✖  Expected modern color-function notation                     color-function-notation
+  35:1   ✖  Unexpected duplicate selector "body", first used at line 1  no-duplicate-selectors
+  36:21  ✖  Expected modern color-function notation                     color-function-notation
+  40:21  ✖  Expected modern color-function notation                     color-function-notation
+  42:1   ✖  Expected empty line before rule                             rule-empty-line-before
+  43:21  ✖  Expected modern color-function notation                     color-function-notation
+
+✖ 14 problems (14 errors, 0 warnings)
+  13 errors potentially fixable with the "--fix" option.
+
