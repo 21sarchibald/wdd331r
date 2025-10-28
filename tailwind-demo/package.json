@@ -13,6 +13,8 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@tailwindcss/vite": "^4.1.16",
+    "tailwindcss": "^4.1.16",
     "vite": "^7.1.12"
   }
 }
